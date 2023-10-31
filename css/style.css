@@ -118,6 +118,8 @@ a:visited{
     .gallery{
         display:none;
     }
-
+    .card>ul>li:nth-child(2)::after{
+        content: "\1F44D";
+    }
 }
   
